@@ -1,0 +1,8 @@
+[
+  {"id": "ACT-01", "nombre": "verificar_identidad", "costo_minutos": 3, "precondiciones": [], "efectos": ["identidad_verificada"]},
+  {"id": "ACT-02", "nombre": "enviar_solicitud_IAM", "costo_minutos": 2, "precondiciones": ["identidad_verificada"], "efectos": ["solicitud_enviada"]},
+  {"id": "ACT-03", "nombre": "esperar_confirmacion_IAM", "costo_minutos": 5, "precondiciones": ["solicitud_enviada"], "efectos": ["usuario_desbloqueado"]},
+  {"id": "ACT-04", "nombre": "cambiar_contraseña", "costo_minutos": 4, "precondiciones": ["identidad_verificada"], "efectos": ["password_cambiada"]},
+  {"id": "ACT-05", "nombre": "reiniciar_cola_impresion", "costo_minutos": 2, "precondiciones": [], "efectos": ["cola_reiniciada"]},
+  {"id": "ACT-06", "nombre": "verificar_certificados_SSL", "costo_minutos": 6, "precondiciones": [], "efectos": ["certificados_verificados"]}
+]

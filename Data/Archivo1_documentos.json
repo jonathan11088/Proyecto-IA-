@@ -1,0 +1,30 @@
+[
+  {
+    "id": "POL-001",
+    "titulo": "Política de desbloqueo de usuarios",
+    "categoria": "acceso",
+    "contenido": "Para desbloquear un usuario, el técnico debe verificar identidad del solicitante, luego enviar solicitud al sistema IAM, esperar 5 minutos y confirmar el desbloqueo. Si el usuario está bloqueado por intentos fallidos, se requiere además cambiar contraseña",
+    "palabras_clave": ["desbloquear", "usuario", "IAM", "contraseña", "intentos fallidos"]
+  },
+  {
+    "id": "POL-002",
+    "titulo": "Procedimiento para problemas de impresión",
+    "categoria": "hardware",
+    "contenido": "Reiniciar la cola de impresión, verificar conexión de red, limpiar atascos de papel. Si falla, reinstalar controladores desde el servidor central.",
+    "palabras_clave": ["impresora", "papel", "controladores", "red", "cola"]
+  },
+  {
+    "id": "REG-003",
+    "titulo": "Normativa de seguridad para accesos a sistemas financieros",
+    "categoria": "seguridad",
+    "contenido": "Ningún usuario puede ser desbloqueado sin autorización expresa del oficial de cumplimiento si el bloqueo fue por actividades sospechosas. El registro del desbloqueo debe quedar en auditoría por 5 años.",
+    "palabras_clave": ["seguridad", "cumplimiento", "autorización", "auditoría", "sospechoso"]
+  },
+  {
+    "id": "MAN-004",
+    "titulo": "Manual de software - Sistema de préstamos",
+    "categoria": "software",
+    "contenido": "Si el sistema de préstamos no carga, limpiar caché del navegador, verificar certificados SSL, contactar al equipo de bases de datos si persiste más de 10 minutos.",
+    "palabras_clave": ["préstamos", "caché", "SSL", "base de datos", "navegador"]
+  }
+]

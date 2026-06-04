@@ -1,0 +1,10 @@
+entidad_origen,relacion,entidad_destino
+Usuario,tiene_incidente,AccesoBloqueado
+Usuario,pertenece_a,Area Comercial
+AccesoBloqueado,se_resuelve_con,DesbloqueoIAM
+DesbloqueoIAM,requiere_autorizacion,Oficial Cumplimiento
+DesbloqueoIAM,requiere_tecnica,VerificacionIdentidad
+IncidenteImpresion,se_resuelve_con,Reiniciar Cola
+IncidenteImpresion,se_resuelve_con,Reinstalar Controladores
+Sistema Prestamos,falla_cuando,ProblemaSSL
+ProblemaSSL,se_resuelve_con,VerificarCertificados
